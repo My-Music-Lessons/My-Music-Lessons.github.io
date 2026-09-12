@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "2b412cdeae5bfa22c5515746b5efa84c44c5f5707f49685b6d64d9c15d01781f",
-  "progressFingerprint": "2a510738b11bcbb883120fc73b34873a84e6c33b492b45cf5338e42543c3928c",
+  "sourceFingerprint": "20d81760ae06e50e328ac912d13e0a630a3d3ffc85bb54080ba2290497ac5e6a",
+  "progressFingerprint": "2aed476a525ab6d251d8b586cc1f7a527480e59734d2399a0107cda89b4d6dcc",
   "sourceDirty": true,
-  "githubCommit": "bf051704993512af61cd7f788fab263bacbf8964",
+  "githubCommit": "f6c5fa349f6c5370a2fb57f2a1631ac2b13aa7be",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "bf051704993512af61cd7f788fab263bacbf8964",
+  "commit": "f6c5fa349f6c5370a2fb57f2a1631ac2b13aa7be",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-12T07:50:18.869Z",
+  "builtAt": "2026-09-12T09:09:49.555Z",
   "version": "1.2.0",
   "branch": "ui/full-unplumbed-production-build",
   "expectedOrigin": ""
