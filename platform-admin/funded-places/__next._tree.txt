@@ -1,4 +1,4 @@
 :HL["/_next/static/css/b081a31213a84f46.css","style"]
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
-:HL["/_next/static/css/6ac2e793f4d405d1.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"platform-admin/funded-places","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"KD5czcS-mRA3QpfPpSwYV"}
+:HL["/_next/static/css/477026aa99406f52.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"platform-admin/funded-places","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"v6Ro-dwQIcToHVfbKLsF1"}
