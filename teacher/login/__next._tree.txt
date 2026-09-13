@@ -1,5 +1,5 @@
 :HL["/_next/static/css/b081a31213a84f46.css","style"]
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
-:HL["/_next/static/css/8a7cd59e41a1c4da.css","style"]
+:HL["/_next/static/css/2f5b444ebd75ed8f.css","style"]
 :HL["/_next/static/css/b38bc4068f0151d4.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/login","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"PIoTCJPzNYwnv2be5AYiE"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/login","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"X_Z40a9hiont689TK5h0l"}
