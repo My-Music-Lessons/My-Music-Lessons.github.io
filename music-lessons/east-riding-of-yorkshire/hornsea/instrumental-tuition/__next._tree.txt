@@ -1,4 +1,4 @@
 :HL["/_next/static/css/0051b6bc849550f8.css","style"]
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
 :HL["/_next/static/css/d1f4f423c566046d.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"east-riding-of-yorkshire/hornsea/instrumental-tuition","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"Js2E9EXhgjloQ38WiNXWf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"east-riding-of-yorkshire/hornsea/instrumental-tuition","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"ZDN8A__H_WJoqKzzgYPtH"}
