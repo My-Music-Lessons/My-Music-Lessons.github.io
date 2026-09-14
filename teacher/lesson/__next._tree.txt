@@ -2,4 +2,4 @@
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
 :HL["/_next/static/css/4b851c67b790544f.css","style"]
 :HL["/_next/static/css/cea6223f9bb50c42.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/lesson","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-ItfYXwCrTS0CwflEx6am"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/lesson","siblings":["_not-found","_global-error","music-lessons"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Q--YzOWv4A64SfRw0nlnS"}
