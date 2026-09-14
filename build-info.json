@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "bbc6ccb3dce433a1cc27a008fd52b737c537d710013242545cf222608f0d05bb",
-  "progressFingerprint": "b665f366567796db062daa9ea448b51f7a3ccbe527db29058de1fe183dd8e27c",
+  "sourceFingerprint": "044d1bf633f65ac293c39ac65c2c1ef9c4fbbc30af859810a73c3f0025ae8dda",
+  "progressFingerprint": "b7e21f63e5f6a71b3f9b26adebdde2632cd6d6ff3ee1706c61503df9e624dd67",
   "sourceDirty": true,
-  "githubCommit": "befbfc8361d95b54cd59aefbabae93a499d228ea",
+  "githubCommit": "35a42e849fa3c7a2c2612a59d090b9d653adb159",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -12,21 +12,21 @@
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 3492,
+      "completed": 0,
       "total": 3492,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 3492,
+      "completed": 0,
       "total": 3492,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 194,
+      "completed": 0,
       "total": 194,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
     "sharedComponents": {
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "befbfc8361d95b54cd59aefbabae93a499d228ea",
+  "commit": "35a42e849fa3c7a2c2612a59d090b9d653adb159",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-14T11:05:36.775Z",
+  "builtAt": "2026-09-14T16:32:33.424Z",
   "version": "1.2.0",
   "branch": "ui/full-unplumbed-production-build",
   "expectedOrigin": ""

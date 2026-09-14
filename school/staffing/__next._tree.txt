@@ -1,5 +1,6 @@
 :HL["/_next/static/css/0051b6bc849550f8.css","style"]
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
 :HL["/_next/static/css/4b851c67b790544f.css","style"]
-:HL["/_next/static/css/cea6223f9bb50c42.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"school/staffing","siblings":["_not-found","_global-error","music-lessons"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"_7MHd-7p-fbf0gaHdspMW"}
+:HL["/_next/static/css/ce6e65a318584787.css","style"]
+:HL["/_next/static/css/5400b69288f72be5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"school/staffing","siblings":["_not-found","_global-error","music-lessons"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"ksbKNmFy73YIxRRktlVSn"}
