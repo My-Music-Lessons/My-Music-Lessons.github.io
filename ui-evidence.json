@@ -1,7 +1,7 @@
 {
   "version": "1.2.0",
-  "updatedAt": "2026-09-16T13:58:21.633Z",
-  "sourceFingerprint": "171a2713c662cbad4447dc30dcefbdc7d569d2b6d5791dea470682a95bb73478",
+  "updatedAt": "2026-09-16T14:42:44.298Z",
+  "sourceFingerprint": "6647362c6800620a10b1d5da094cc436f302d5abaa601d9cc62f36a5a174af6d",
   "denominators": {
     "routes": 194,
     "routeStates": 3492,
@@ -17,21 +17,21 @@
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 3492,
+      "completed": 0,
       "total": 3492,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 3492,
+      "completed": 0,
       "total": 3492,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 194,
+      "completed": 0,
       "total": 194,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
     "sharedComponents": {
@@ -90,9 +90,9 @@
     }
   },
   "tests": {
-    "passed": 2397,
-    "total": 2397,
-    "currentFullRun": true,
+    "passed": 0,
+    "total": 0,
+    "currentFullRun": false,
     "fullEvidence": "test-evidence/full-2026-09-16T13-36-25-506Z.json",
     "targetedEvidence": "test-evidence/targeted-2026-09-16T06-25-21-233Z.json"
   },
