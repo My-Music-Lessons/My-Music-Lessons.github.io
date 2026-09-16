@@ -1,8 +1,8 @@
 :HL["/_next/static/css/0051b6bc849550f8.css","style"]
 :HL["/_next/static/css/b10850b54b4f9f75.css","style"]
-:HL["/_next/static/css/52636b708809b3b8.css","style"]
+:HL["/_next/static/css/7f8df728c4bc5f9e.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"isle-of-wight/ryde","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"XY0QNkOZsFj37oLQNrU7u"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"isle-of-wight/ryde","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"gl6vhe6RAvnwhDIq5A39d"}
