@@ -1,8 +1,0 @@
-:HL["/_next/static/css/0051b6bc849550f8.css","style"]
-:HL["/_next/static/css/b10850b54b4f9f75.css","style"]
-:HL["/_next/static/css/013977be0cee5837.css","style"]
-:HL["/_next/static/css/0d9975f3533b660b.css","style"]
-:HL["/_next/static/css/856feeef1266498b.css","style"]
-:HL["/mml-approved-logo.png","image"]
-:HL["/website/guitar-detail-960.webp","image",{"imageSrcSet":"/website/guitar-detail-480.webp 480w, /website/guitar-detail-960.webp 960w, /website/guitar-detail-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"cumbria/carlisle/music-service","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"WyFBPEqGZpnHl87ciIZ89"}
