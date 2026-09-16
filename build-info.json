@@ -1,32 +1,32 @@
 {
-  "sourceFingerprint": "082c92c79ca2b5713dfd20cc4de1cf022fb6dc610ecc4ae08c4ac15c1f3ac20d",
-  "progressFingerprint": "e6412a524c629b499f41f001173ec64696ba32a1aa649225e3ab65e980955d1a",
+  "sourceFingerprint": "9506e0a974c5d5eed15101f8cd7ca00f7096bcaac6b58ff6b477887e4e60182e",
+  "progressFingerprint": "a0565c699718aedc79872bee44677dbc494598490f58f4b66989c5c16ac37956",
   "sourceDirty": true,
-  "githubCommit": "c8835377ab8df7a8b6a4757479a8c9ab1fa78283",
+  "githubCommit": "cc8a21ab329cfc32b6fff0cf9a3a7d380179eb63",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
-      "completed": 194,
-      "total": 194,
+      "completed": 195,
+      "total": 195,
       "percentage": 100,
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 0,
-      "total": 3492,
-      "percentage": 0,
+      "completed": 3510,
+      "total": 3510,
+      "percentage": 100,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 0,
-      "total": 3492,
-      "percentage": 0,
+      "completed": 3510,
+      "total": 3510,
+      "percentage": 100,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 0,
-      "total": 194,
-      "percentage": 0,
+      "completed": 195,
+      "total": 195,
+      "percentage": 100,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
     "sharedComponents": {
@@ -67,13 +67,13 @@
     },
     "platform-admin": {
       "completed": 0,
-      "total": 68,
+      "total": 69,
       "percentage": 0,
       "evidence": "Current-source browser normal-route smoke only; workflow and final acceptance are separate."
     },
     "browserStateCells": {
       "completed": 0,
-      "total": 3492,
+      "total": 3510,
       "percentage": 0,
       "evidence": "Explicit current-source route/scenario browser checks only."
     },
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "c8835377ab8df7a8b6a4757479a8c9ab1fa78283",
+  "commit": "cc8a21ab329cfc32b6fff0cf9a3a7d380179eb63",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-16T19:11:50.510Z",
+  "builtAt": "2026-09-16T23:12:49.669Z",
   "version": "1.2.0",
   "branch": "ui/full-unplumbed-production-build",
   "expectedOrigin": ""

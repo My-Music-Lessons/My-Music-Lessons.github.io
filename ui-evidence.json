@@ -1,37 +1,37 @@
 {
   "version": "1.2.0",
-  "updatedAt": "2026-09-16T19:11:48.044Z",
-  "sourceFingerprint": "082c92c79ca2b5713dfd20cc4de1cf022fb6dc610ecc4ae08c4ac15c1f3ac20d",
+  "updatedAt": "2026-09-16T23:12:47.902Z",
+  "sourceFingerprint": "9506e0a974c5d5eed15101f8cd7ca00f7096bcaac6b58ff6b477887e4e60182e",
   "denominators": {
-    "routes": 194,
-    "routeStates": 3492,
+    "routes": 195,
+    "routeStates": 3510,
     "components": 36,
     "commands": 42,
     "portals": 6
   },
   "metrics": {
     "routeInventory": {
-      "completed": 194,
-      "total": 194,
+      "completed": 195,
+      "total": 195,
       "percentage": 100,
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 0,
-      "total": 3492,
-      "percentage": 0,
+      "completed": 3510,
+      "total": 3510,
+      "percentage": 100,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 0,
-      "total": 3492,
-      "percentage": 0,
+      "completed": 3510,
+      "total": 3510,
+      "percentage": 100,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 0,
-      "total": 194,
-      "percentage": 0,
+      "completed": 195,
+      "total": 195,
+      "percentage": 100,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
     "sharedComponents": {
@@ -72,13 +72,13 @@
     },
     "platform-admin": {
       "completed": 0,
-      "total": 68,
+      "total": 69,
       "percentage": 0,
       "evidence": "Current-source browser normal-route smoke only; workflow and final acceptance are separate."
     },
     "browserStateCells": {
       "completed": 0,
-      "total": 3492,
+      "total": 3510,
       "percentage": 0,
       "evidence": "Explicit current-source route/scenario browser checks only."
     },
@@ -90,11 +90,11 @@
     }
   },
   "tests": {
-    "passed": 0,
-    "total": 0,
-    "currentFullRun": false,
-    "fullEvidence": "test-evidence/full-2026-09-16T18-50-27-845Z.json",
-    "targetedEvidence": "test-evidence/targeted-2026-09-16T06-25-21-233Z.json"
+    "passed": 2424,
+    "total": 2424,
+    "currentFullRun": true,
+    "fullEvidence": "test-evidence/full-2026-09-16T22-48-39-295Z.json",
+    "targetedEvidence": "test-evidence/targeted-2026-09-16T21-43-28-029Z.json"
   },
   "currentBrowserEvidence": null,
   "historicalEvidence": {
@@ -106,9 +106,9 @@
   },
   "overall": {
     "completed": 0,
-    "total": 3492,
+    "total": 3510,
     "percentage": 0,
-    "evidence": "Browser state-cell coverage out of 3492; this is not an overall programme completion percentage."
+    "evidence": "Browser state-cell coverage out of 3510; this is not an overall programme completion percentage."
   },
   "openGates": [
     "UQ-SOURCE",
