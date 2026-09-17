@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "2612213a8bea906d45de3d8c3c7cc45d7423154ac89892046dae5f777c85d879",
-  "progressFingerprint": "a9f85915c15aadcf1c93202074953cb6e56deb28edf0661680cdb5221949d5f7",
+  "sourceFingerprint": "5cf4a929a55747268eff6e8488b0c9588dd5b3a3535032eb1fe0721634099888",
+  "progressFingerprint": "34303bda508276758ba407ea0cce03f430b12b3d67f2fe93e5d7412bc0e0546c",
   "sourceDirty": false,
-  "githubCommit": "2e089eff782d82f8d7052c820a411580cdf27971",
+  "githubCommit": "9f6a819cbd926c3c57607e758df02501b110d670",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -84,11 +84,11 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "2e089eff782d82f8d7052c820a411580cdf27971",
+  "commit": "9f6a819cbd926c3c57607e758df02501b110d670",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-17T13:47:11.104Z",
+  "builtAt": "2026-09-17T18:29:38.088Z",
   "version": "1.2.0",
-  "branch": "ui/full-unplumbed-production-build",
-  "expectedOrigin": ""
+  "branch": "ui/claude-continuation",
+  "expectedOrigin": "https://my-music-lessons.github.io"
 }

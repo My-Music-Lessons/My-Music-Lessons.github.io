@@ -1,8 +1,8 @@
-:HL["/_next/static/css/0051b6bc849550f8.css","style"]
-:HL["/_next/static/css/b10850b54b4f9f75.css","style"]
+:HL["/_next/static/css/9a1ea9385818f73c.css","style"]
+:HL["/_next/static/css/8b6053444e18298b.css","style"]
 :HL["/_next/static/css/7f8df728c4bc5f9e.css","style"]
-:HL["/_next/static/css/ff8a33b6a6410c8b.css","style"]
-:HL["/_next/static/css/4c92a281f838ba76.css","style"]
-:HL["/_next/static/css/dda4b01ef64e6ca6.css","style"]
-:HL["/_next/static/css/2b27a28e27634181.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"public/ukulele","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"WuCGiNbUeMAIbCkNiWl4r"}
+:HL["/_next/static/css/12f64d665be4daf5.css","style"]
+:HL["/_next/static/css/c90b72451f2e83fe.css","style"]
+:HL["/_next/static/css/56b13ca6f179824a.css","style"]
+:HL["/_next/static/css/fae93fdb4b2ce1fd.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"public/ukulele","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"EcPPAk_2UBoF1FJoQFIOW"}
