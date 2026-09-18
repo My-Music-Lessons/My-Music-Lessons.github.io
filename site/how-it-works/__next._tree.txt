@@ -1,6 +1,6 @@
-:HL["/_next/static/css/6eebc30d5a240e53.css","style"]
+:HL["/_next/static/css/51d9835e47666ea9.css","style"]
 :HL["/_next/static/css/c09c8b3d83d63b30.css","style"]
 :HL["/_next/static/css/a50408476c70e22e.css","style"]
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"site","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"how-it-works","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"pih480KzJ7cdLiaLHn8wT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"site","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"how-it-works","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"YR-M4IBewNjbLJ2zGlAER"}
