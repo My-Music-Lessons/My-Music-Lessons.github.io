@@ -1,8 +1,8 @@
-:HL["/_next/static/css/18670b9f6f0bca74.css","style"]
-:HL["/_next/static/css/8b6053444e18298b.css","style"]
-:HL["/_next/static/css/7f8df728c4bc5f9e.css","style"]
+:HL["/_next/static/css/6eebc30d5a240e53.css","style"]
+:HL["/_next/static/css/c09c8b3d83d63b30.css","style"]
+:HL["/_next/static/css/a50408476c70e22e.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"norfolk/cromer","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"E9F8DejfXlNzlnGY1Eljt"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"norfolk/cromer","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"MsmAzEMcL7a80OB0JQuN9"}
