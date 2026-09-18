@@ -1,31 +1,31 @@
 {
-  "sourceFingerprint": "f625cceb9029551d2be241e2c9cadd3f319ae02e5462638454c91232c8cae7aa",
-  "progressFingerprint": "a75e51db05c0a5b87e3ccf188ee9a2a5599b687a9fffa0ac9ec325de70a64a3f",
+  "sourceFingerprint": "eeaacbb333b164330af595a15aede9aab75f59e98a19b8dfb88e8dc93d99d3cf",
+  "progressFingerprint": "53ff23930ddd1f58461fdde2eb1e0360a7ff18d05de716dbb59b31f10fd17aa2",
   "sourceDirty": false,
-  "githubCommit": "e96e63b2b9fcaabba6da1bdcb9e779f6bf56b609",
+  "githubCommit": "ffcbf8e4ae126685db87ae803399d667c83519f0",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
-      "completed": 196,
-      "total": 196,
+      "completed": 197,
+      "total": 197,
       "percentage": 100,
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 3528,
-      "total": 3528,
+      "completed": 3546,
+      "total": 3546,
       "percentage": 100,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 3528,
-      "total": 3528,
+      "completed": 3546,
+      "total": 3546,
       "percentage": 100,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 196,
-      "total": 196,
+      "completed": 197,
+      "total": 197,
       "percentage": 100,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
@@ -67,13 +67,13 @@
     },
     "platform-admin": {
       "completed": 0,
-      "total": 70,
+      "total": 71,
       "percentage": 0,
       "evidence": "Current-source browser normal-route smoke only; workflow and final acceptance are separate."
     },
     "browserStateCells": {
       "completed": 0,
-      "total": 3528,
+      "total": 3546,
       "percentage": 0,
       "evidence": "Explicit current-source route/scenario browser checks only."
     },
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "e96e63b2b9fcaabba6da1bdcb9e779f6bf56b609",
+  "commit": "ffcbf8e4ae126685db87ae803399d667c83519f0",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-18T20:12:55.621Z",
+  "builtAt": "2026-09-18T22:06:14.437Z",
   "version": "1.2.0",
   "branch": "ui/claude-continuation",
   "expectedOrigin": ""
