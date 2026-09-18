@@ -4,4 +4,4 @@
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
 :HL["/mml-approved-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"enquiry-received","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"1teudMtSrA4d2F2ixX8H1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"enquiry-received","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"uzlNpYWP2K3eNmweC50Vw"}
