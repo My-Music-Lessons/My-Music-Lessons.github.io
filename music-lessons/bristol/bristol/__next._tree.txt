@@ -5,4 +5,4 @@
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"bristol/bristol","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"uzlNpYWP2K3eNmweC50Vw"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"bristol/bristol","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"KSjoRmL0kdRyFfUGdKT0-"}

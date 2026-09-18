@@ -1,7 +1,7 @@
 {
   "sourceFingerprint": "555c0bd7c4297003e7e9df980c80dbc3b70380eff3c3202d34771f6b890bf69e",
   "progressFingerprint": "02510288e4cd2d6d3bc55a174ead11e42055d8132bdbe7d35ead85241845fdf4",
-  "sourceDirty": false,
+  "sourceDirty": true,
   "githubCommit": "ae0a550d0699ef6a6a781b451cdb2b8fa4e9b998",
   "completionPercentage": 0,
   "progressMetrics": {
@@ -87,7 +87,7 @@
   "commit": "ae0a550d0699ef6a6a781b451cdb2b8fa4e9b998",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-18T13:59:22.713Z",
+  "builtAt": "2026-09-18T15:11:56.736Z",
   "version": "1.2.0",
   "branch": "ui/claude-continuation",
   "expectedOrigin": ""
