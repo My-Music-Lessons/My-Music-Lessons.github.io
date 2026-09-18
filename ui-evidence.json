@@ -1,7 +1,7 @@
 {
   "version": "1.2.0",
-  "updatedAt": "2026-09-18T03:34:47.880Z",
-  "sourceFingerprint": "3053a4152fb6cd9a0161bcba26452489a5aee33fbc947c3b85b4ad7024354df8",
+  "updatedAt": "2026-09-18T04:54:04.432Z",
+  "sourceFingerprint": "aed9ed12e3ad8755d9e0971ddcb68134c40b3456d288eb206d2848170d67dbd0",
   "denominators": {
     "routes": 196,
     "routeStates": 3528,
@@ -93,8 +93,8 @@
     "passed": 2677,
     "total": 2677,
     "currentFullRun": true,
-    "fullEvidence": "test-evidence/full-2026-09-18T03-18-55-939Z.json",
-    "targetedEvidence": "test-evidence/targeted-2026-09-18T03-15-15-957Z.json"
+    "fullEvidence": "test-evidence/full-2026-09-18T04-38-05-045Z.json",
+    "targetedEvidence": "test-evidence/targeted-2026-09-18T04-29-17-539Z.json"
   },
   "currentBrowserEvidence": null,
   "historicalEvidence": {
