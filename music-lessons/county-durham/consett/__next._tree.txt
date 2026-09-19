@@ -1,8 +1,8 @@
-:HL["/_next/static/css/51d9835e47666ea9.css","style"]
+:HL["/_next/static/css/1eaf6b793a8f8252.css","style"]
 :HL["/_next/static/css/e95423374a35b8eb.css","style"]
-:HL["/_next/static/css/a50408476c70e22e.css","style"]
+:HL["/_next/static/css/4394a042d9f30029.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"county-durham/consett","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"cpj2i63_WwaPEnfKDJ7bj"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"county-durham/consett","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"LBbCsRRGe8YM2e3PwDiYL"}
