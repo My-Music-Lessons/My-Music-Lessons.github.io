@@ -2,9 +2,9 @@
 :HL["/_next/static/css/a54fd4d87843b5d0.css","style"]
 :HL["/_next/static/css/8db0c98f223eb45b.css","style"]
 :HL["/_next/static/css/2dc344d44f9a9ff8.css","style"]
-:HL["/_next/static/css/78daad938040f811.css","style"]
+:HL["/_next/static/css/1a9a8db23e6c1fdb.css","style"]
 :HL["/_next/static/css/449f49e017c716c9.css","style"]
 :HL["/_next/static/css/3ee90f67c1ddc80b.css","style"]
 :HL["/_next/static/css/a92b737fb9215cd9.css","style"]
 :HL["/_next/static/css/dc67bbb16be94f6a.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/leave","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Nr7cT7ougOWtSD-M7THN0"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"teacher/leave","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Pa3pLwi9caYTwsrQfrp06"}
