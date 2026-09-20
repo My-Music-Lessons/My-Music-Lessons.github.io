@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "65c65bb06dbe031d5ef8b17a49e250b91a62765e5bb481718008ab9c67117cb7",
-  "progressFingerprint": "0b11c88e89248134c52c8b530ddf4e1a47fb7571374de8d81d27170ddcea099f",
+  "sourceFingerprint": "22887b121389464f7a39270e7f2b7ff339bf708bd382d84feae240586da957fe",
+  "progressFingerprint": "6253e13317f1dbef66dd48601bdf9af2201e123fc44e0701e3922a1f93ca9666",
   "sourceDirty": true,
-  "githubCommit": "193158a498854e3480d01f36c2b3112125911002",
+  "githubCommit": "afd1577936580d82886f20bb9d843aa049c7e54e",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -12,21 +12,21 @@
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
-      "completed": 3546,
+      "completed": 0,
       "total": 3546,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
-      "completed": 3546,
+      "completed": 0,
       "total": 3546,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
-      "completed": 197,
+      "completed": 0,
       "total": 197,
-      "percentage": 100,
+      "percentage": 0,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
     "sharedComponents": {
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "193158a498854e3480d01f36c2b3112125911002",
+  "commit": "afd1577936580d82886f20bb9d843aa049c7e54e",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-19T16:19:36.662Z",
+  "builtAt": "2026-09-20T01:32:14.581Z",
   "version": "1.2.0",
   "branch": "ui/claude-continuation",
   "expectedOrigin": ""
