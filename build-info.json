@@ -1,31 +1,31 @@
 {
-  "sourceFingerprint": "85488911ce7f5f762b6f918f4b3c04f2ea2251cb472947d743e061c02694356e",
-  "progressFingerprint": "59fba39c83484e054214bbb430f6bd991cd1ef246f33959dd078dddd377efb71",
+  "sourceFingerprint": "a20777eefc71a313b4c92fcaa7862b0b7535aec8b4bc62d9514ba045822f07b8",
+  "progressFingerprint": "60a8545e43dd310a0e2c675e46b9581defcc71f8d09e70800c93a0a645330883",
   "sourceDirty": true,
-  "githubCommit": "fa574e597190b74ff3d7aa01925726e915ab39d6",
+  "githubCommit": "31b875a6567e612a869cf775aaed39736f140b3d",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
-      "completed": 197,
-      "total": 197,
+      "completed": 198,
+      "total": 198,
       "percentage": 100,
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
       "completed": 0,
-      "total": 197,
+      "total": 198,
       "percentage": 0,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
@@ -67,13 +67,13 @@
     },
     "platform-admin": {
       "completed": 0,
-      "total": 71,
+      "total": 72,
       "percentage": 0,
       "evidence": "Current-source browser normal-route smoke only; workflow and final acceptance are separate."
     },
     "browserStateCells": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Explicit current-source route/scenario browser checks only."
     },
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "fa574e597190b74ff3d7aa01925726e915ab39d6",
+  "commit": "31b875a6567e612a869cf775aaed39736f140b3d",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-20T20:48:47.320Z",
+  "builtAt": "2026-09-21T16:57:57.033Z",
   "version": "1.2.0",
   "branch": "ui/claude-continuation",
   "expectedOrigin": ""

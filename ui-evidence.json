@@ -1,36 +1,36 @@
 {
   "version": "1.2.0",
-  "updatedAt": "2026-09-20T20:26:47.705Z",
-  "sourceFingerprint": "85488911ce7f5f762b6f918f4b3c04f2ea2251cb472947d743e061c02694356e",
+  "updatedAt": "2026-09-21T16:34:25.541Z",
+  "sourceFingerprint": "a20777eefc71a313b4c92fcaa7862b0b7535aec8b4bc62d9514ba045822f07b8",
   "denominators": {
-    "routes": 197,
-    "routeStates": 3546,
+    "routes": 198,
+    "routeStates": 3564,
     "components": 36,
     "commands": 42,
     "portals": 6
   },
   "metrics": {
     "routeInventory": {
-      "completed": 197,
-      "total": 197,
+      "completed": 198,
+      "total": 198,
       "percentage": 100,
       "evidence": "Defined routes; inventory presence is not acceptance."
     },
     "adapterProjections": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Full-suite deterministic adapter projection checks; not browser state qualification."
     },
     "renderedStates": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Server rendering across the scenario matrix; not browser interaction evidence."
     },
     "semanticAccessibility": {
       "completed": 0,
-      "total": 197,
+      "total": 198,
       "percentage": 0,
       "evidence": "Normal-page semantic axe checks in JSDOM; colour contrast, full-shell regions and real focus are separate."
     },
@@ -72,13 +72,13 @@
     },
     "platform-admin": {
       "completed": 0,
-      "total": 71,
+      "total": 72,
       "percentage": 0,
       "evidence": "Current-source browser normal-route smoke only; workflow and final acceptance are separate."
     },
     "browserStateCells": {
       "completed": 0,
-      "total": 3546,
+      "total": 3564,
       "percentage": 0,
       "evidence": "Explicit current-source route/scenario browser checks only."
     },
@@ -93,7 +93,7 @@
     "passed": 0,
     "total": 0,
     "currentFullRun": false,
-    "fullEvidence": "test-evidence/full-2026-09-20T19-57-45-525Z.json",
+    "fullEvidence": "test-evidence/full-2026-09-21T16-00-17-397Z.json",
     "targetedEvidence": "test-evidence/targeted-2026-09-20T08-39-29-119Z.json"
   },
   "currentBrowserEvidence": null,
@@ -106,9 +106,9 @@
   },
   "overall": {
     "completed": 0,
-    "total": 3546,
+    "total": 3564,
     "percentage": 0,
-    "evidence": "Browser state-cell coverage out of 3546; this is not an overall programme completion percentage."
+    "evidence": "Browser state-cell coverage out of 3564; this is not an overall programme completion percentage."
   },
   "openGates": [
     "UQ-SOURCE",

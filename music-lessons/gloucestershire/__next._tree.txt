@@ -1,8 +1,8 @@
 :HL["/_next/static/css/1eaf6b793a8f8252.css","style"]
 :HL["/_next/static/css/a54fd4d87843b5d0.css","style"]
-:HL["/_next/static/css/2dc344d44f9a9ff8.css","style"]
+:HL["/_next/static/css/36109f2a1efd2b37.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
 :HL["/_next/static/css/214b44025e9534a0.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/drums-detail-960.webp","image",{"imageSrcSet":"/website/drums-detail-480.webp 480w, /website/drums-detail-960.webp 960w, /website/drums-detail-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"gloucestershire","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"6NY4ipV9zcyGzlaXucVR-"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"gloucestershire","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"HybupUrLHoxXAtrEvKUo7"}
