@@ -1,10 +1,10 @@
 :HL["/_next/static/css/1eaf6b793a8f8252.css","style"]
-:HL["/_next/static/css/a54fd4d87843b5d0.css","style"]
+:HL["/_next/static/css/cce007665f5af9ab.css","style"]
 :HL["/_next/static/css/b3ebc774f6133016.css","style"]
 :HL["/_next/static/css/36109f2a1efd2b37.css","style"]
-:HL["/_next/static/css/9b40adf7f40f683c.css","style"]
+:HL["/_next/static/css/c4198a114469949c.css","style"]
 :HL["/_next/static/css/449f49e017c716c9.css","style"]
 :HL["/_next/static/css/3ee90f67c1ddc80b.css","style"]
 :HL["/_next/static/css/8c5788beb5104210.css","style"]
-:HL["/_next/static/css/ba0fc0be4d5cb0af.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"platform-admin/waiting-lists","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"HybupUrLHoxXAtrEvKUo7"}
+:HL["/_next/static/css/fa834234c1cb6923.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"screen","param":{"type":"c","key":"platform-admin/waiting-lists","siblings":["_not-found","_global-error","enquiry-received","how-it-works","music-lessons","privacy","site"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Lr3QZSBZxNPsXeLI8AGG1"}
