@@ -1,8 +1,8 @@
 :HL["/_next/static/css/f2f2f0806d61e1a3.css","style"]
 :HL["/_next/static/css/cce007665f5af9ab.css","style"]
-:HL["/_next/static/css/8125b792cbf7e1b0.css","style"]
+:HL["/_next/static/css/9adf003d3e8dabeb.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
-:HL["/_next/static/css/13a248aa636434f2.css","style"]
+:HL["/_next/static/css/44730e0a26483157.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"staffordshire/stoke-on-trent","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"ptvk-KA5xSiupgdqcDE5U"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"staffordshire/stoke-on-trent","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"uGYE16gmyu8-vH9g5BlPS"}
