@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "3886ffeea37698a76e83d46cc9286d5a396258b85d2017eedf6727eabdb823af",
-  "progressFingerprint": "cd2be5a5ff515458e75a4e2814fbd3c202daccdd9f38205e09f4cd6ceecdb828",
+  "sourceFingerprint": "71f279d4fa331804a4cc93f36f199f66788215d2b4320382e6e4032805e82e64",
+  "progressFingerprint": "5fa957379bdbfe0d920ed5ede5f359d81587cab1c4c571a568d23f6017ba5676",
   "sourceDirty": true,
-  "githubCommit": "eaeb6e807e8e7d4b1fa329dafca16aa9c7c98272",
+  "githubCommit": "2ef549f0a02fc3e95ea51e2e1dc1ff8525c13ce2",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "eaeb6e807e8e7d4b1fa329dafca16aa9c7c98272",
+  "commit": "2ef549f0a02fc3e95ea51e2e1dc1ff8525c13ce2",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-09-21T18:18:12.101Z",
+  "builtAt": "2026-09-21T19:10:31.964Z",
   "version": "1.2.0",
   "branch": "ui/claude-continuation",
   "expectedOrigin": ""
