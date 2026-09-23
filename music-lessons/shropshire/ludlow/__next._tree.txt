@@ -2,7 +2,7 @@
 :HL["/_next/static/css/cce007665f5af9ab.css","style"]
 :HL["/_next/static/css/3c854d95caf64a6a.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
-:HL["/_next/static/css/aff8b7dcb6f7d97c.css","style"]
+:HL["/_next/static/css/bf2c4e8c5802606f.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano-existing-960.webp","image",{"imageSrcSet":"/website/piano-existing-480.webp 480w, /website/piano-existing-960.webp 960w, /website/piano-existing-1440.webp 1440w","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"shropshire/ludlow","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"XquUJfZwgYoOM5_rmZ736"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"shropshire/ludlow","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"ey-H-w9q--aW0KfI2Q6_0"}
