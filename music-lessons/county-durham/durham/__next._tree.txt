@@ -2,7 +2,7 @@
 :HL["/_next/static/css/cce007665f5af9ab.css","style"]
 :HL["/_next/static/css/5ee2a1d93eb62f3d.css","style"]
 :HL["/_next/static/css/0d9975f3533b660b.css","style"]
-:HL["/_next/static/css/a8dfaf8c50b33f54.css","style"]
+:HL["/_next/static/css/adf6b351f7442571.css","style"]
 :HL["/mml-approved-logo.png","image"]
-:HL["/website/piano.svg","image",{"imageSrcSet":"/website/piano.svg","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"county-durham/durham","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"dwpGfV9PiZAEdRQhSWqpV"}
+:HL["/website/store.svg","image",{"imageSrcSet":"/website/store.svg","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"county-durham/durham","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"dVnnWlqd8OvgNP41BLI_9"}
