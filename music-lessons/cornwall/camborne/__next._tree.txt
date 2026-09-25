@@ -5,4 +5,4 @@
 :HL["/_next/static/css/a8dfaf8c50b33f54.css","style"]
 :HL["/mml-approved-logo.png","image"]
 :HL["/website/piano.svg","image",{"imageSrcSet":"/website/piano.svg","imageSizes":"(max-width: 760px) 90vw, (max-width: 1200px) 48vw, 720px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"cornwall/camborne","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"Kp_uIuCTPHIIEB0Ro2seF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"music-lessons","param":null,"prefetchHints":4192,"slots":{"children":{"name":"place","param":{"type":"oc","key":"cornwall/camborne","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"dwpGfV9PiZAEdRQhSWqpV"}
