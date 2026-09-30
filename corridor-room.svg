@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- THE CORRIDOR, BEHIND THE DOCUMENT PAGES.
+     Owner, 25 September: "go".
+
+     Room three of the set, after desk-room.svg and hall-room.svg, and built
+     from the same kit so the three can never drift: the palette read from
+     packages/ui/src/mml.css, two blur planes at 13 and 3.4, four light plates
+     on a single 9s alternate, and exactly one object allowed to pull into
+     focus on a 6s beat.
+
+     WHY A CORRIDOR, AND WHY THIS ONE IS DIFFERENT. This sits behind
+     safeguarding, privacy, terms, accessibility and cookies - five pages whose
+     whole job is to say that nothing is hidden. So the room is a corridor of
+     closed doors with one standing open, and the light in the scene comes out
+     of that open door rather than in through a window. It is the only room of
+     the three whose light source is the subject.
+
+     The reader is not being sold anything on these pages, so the swing is
+     shallower and slower than the other two: 14s rather than 9s on the clock,
+     and a smaller range between dark and lit.
+
+     A background-image rather than inline markup, like the other two: it is
+     decoration with nothing to announce, it caches, and the crop becomes a
+     background-position the stylesheet sets per breakpoint. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="presentation" aria-hidden="true">
+  <defs>
+    <filter id="crFar" x="-14%" y="-14%" width="128%" height="128%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="crNear" x="-14%" y="-14%" width="128%" height="128%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <!-- the spill on the floor gets its own softening, because a hard-edged
+         trapezoid of light across a blurred corridor reads as a cut-out -->
+    <filter id="crSpillBlur" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <linearGradient id="crWall" x1="0" y1="0" x2="0.22" y2="1">
+      <stop offset="0" stop-color="#3d2749"/>
+      <stop offset="0.58" stop-color="#311e3b"/>
+      <stop offset="1" stop-color="#2b1933"/>
+    </linearGradient>
+    <linearGradient id="crFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241429"/>
+      <stop offset="1" stop-color="#2b1933"/>
+    </linearGradient>
+    <linearGradient id="crDoorLight" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff6e8" stop-opacity="0.62"/>
+      <stop offset="0.6" stop-color="#ffe9cf" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#ffd6bf" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="crSpill" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#ffe9cf" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#ffdcc0" stop-opacity="0.075"/>
+      <stop offset="1" stop-color="#ffdcc0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="crHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9cf" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#ffe9cf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crFocusGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9c4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffd9c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crWarmWash" cx="0.62" cy="0.42" r="0.74">
+      <stop offset="0" stop-color="#ffdcb8" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#ffc8d4" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffc8d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crBloom" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff0dc" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#ffd6bf" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffd6bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1933" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#2b1933" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="crBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1933" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2b1933" stop-opacity="0.36"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* ONE CLOCK, AND A SLOWER ONE. The front desk and the hall both run 9s
+       because both are rooms somebody is being welcomed into. Nobody is being
+       welcomed into a privacy notice, so this breathes at 14s and over a
+       narrower range: present, not performing. Twenty-eight seconds end to
+       end. */
+    .cr-night { animation: cr-night 14s ease-in-out infinite alternate; }
+    .cr-warm { animation: cr-warm 14s ease-in-out infinite alternate; }
+    .cr-sun { animation: cr-sun 14s ease-in-out infinite alternate; }
+    .cr-pane { animation: cr-pane 14s ease-in-out infinite alternate; }
+    .cr-bloom { filter: blur(11px); }
+
+    /* THE OPEN DOOR IS THE ONE THING THAT COMES INTO FOCUS, on the same 6s
+       beat the front desk bell and the hall lid run on, so the three rooms
+       share a pulse even though this one's light does not. It widens a little
+       rather than moving: a door on these pages should look like it is being
+       held open, not like it is swinging. The blur is animated in CSS because
+       a filter primitive cannot be driven from it. */
+    .cr-door {
+      filter: blur(3.4px);
+      animation: cr-door-focus 6s ease-in-out infinite;
+    }
+    .cr-door-body {
+      transform-box: fill-box;
+      transform-origin: 0% 50%;
+      animation: cr-door-open 6s ease-in-out infinite;
+    }
+    .cr-door-glow {
+      transform-box: fill-box;
+      transform-origin: center;
+      opacity: 0;
+      animation: cr-door-glow 6s ease-in-out infinite;
+    }
+
+    @keyframes cr-night { from { opacity: 0.5; } to { opacity: 0.06; } }
+    @keyframes cr-warm { from { opacity: 0; } to { opacity: 0.62; } }
+    @keyframes cr-sun { from { opacity: 0.2; } to { opacity: 0.72; } }
+    @keyframes cr-pane { from { opacity: 0.16; } to { opacity: 0.8; } }
+    @keyframes cr-door-focus {
+      0%, 44% { filter: blur(3.4px); }
+      56%, 76% { filter: blur(0px); }
+      92%, 100% { filter: blur(3.4px); }
+    }
+    @keyframes cr-door-open {
+      0%, 48% { transform: scaleX(1); }
+      60% { transform: scaleX(1.055); }
+      76% { transform: scaleX(1.03); }
+      90%, 100% { transform: scaleX(1); }
+    }
+    @keyframes cr-door-glow {
+      0%, 46% { opacity: 0; transform: scale(0.76); }
+      58% { opacity: 1; transform: scale(1.1); }
+      84%, 100% { opacity: 0; transform: scale(0.76); }
+    }
+
+    /* The reader has asked for less, and an image cannot be told that by the
+       page that embeds it, so the guard lives in here. The corridor settles
+       lit: a dark corridor behind a safeguarding policy is the wrong still
+       frame by some distance. */
+    @media (prefers-reduced-motion: reduce) {
+      .cr-night, .cr-warm, .cr-sun, .cr-pane,
+      .cr-door, .cr-door-body, .cr-door-glow {
+        animation: none;
+      }
+      .cr-night { opacity: 0.1; }
+      .cr-warm { opacity: 0.55; }
+      .cr-sun, .cr-pane { opacity: 0.7; }
+      .cr-door-glow { opacity: 0; }
+    }
+  </style>
+
+  <!-- the ground is never blurred, so no filter edge can ever show -->
+  <rect width="1200" height="760" fill="url(#crWall)"/>
+  <rect y="470" width="1200" height="290" fill="url(#crFloor)"/>
+
+  <!-- ================= FAR: well out of focus ================= -->
+  <g filter="url(#crFar)">
+    <rect width="1200" height="760" fill="url(#crWall)"/>
+    <rect y="470" width="1200" height="290" fill="url(#crFloor)"/>
+    <path d="M0 470H1200" stroke="#664c70" stroke-opacity="0.44" stroke-width="4"/>
+    <path d="M0 150H1200" stroke="#664c70" stroke-opacity="0.26" stroke-width="3"/>
+
+    <!-- THE RUN OF CLOSED DOORS, getting smaller down the corridor. Heavier
+         than they look they need to be: at stdDeviation 13 a 3px stroke is
+         gone, and a corridor with no doors in it is a wall. -->
+    <g fill="#1c0e22" fill-opacity="0.78" stroke="#d8c1dd" stroke-opacity="0.4" stroke-width="7">
+      <rect x="96" y="196" width="150" height="274" rx="6"/>
+      <rect x="306" y="228" width="122" height="242" rx="6"/>
+      <rect x="486" y="252" width="100" height="218" rx="6"/>
+    </g>
+    <g fill="#d8c1dd" fill-opacity="0.44">
+      <circle cx="228" cy="344" r="9"/>
+      <circle cx="412" cy="360" r="8"/>
+      <circle cx="570" cy="372" r="7"/>
+    </g>
+
+    <!-- a noticeboard, deliberately wordless -->
+    <rect x="874" y="248" width="170" height="118" rx="6" fill="#d8c1dd" fill-opacity="0.12" stroke="#d8c1dd" stroke-opacity="0.38" stroke-width="6"/>
+    <g fill="#d8c1dd" fill-opacity="0.3">
+      <rect x="894" y="268" width="58" height="40" rx="3"/>
+      <rect x="964" y="268" width="62" height="40" rx="3"/>
+      <rect x="894" y="320" width="132" height="12" rx="6"/>
+      <rect x="894" y="340" width="98" height="12" rx="6"/>
+    </g>
+
+    <!-- lockers, which is the other thing every corridor has -->
+    <g fill="#1c0e22" fill-opacity="0.6" stroke="#664c70" stroke-opacity="0.6" stroke-width="6">
+      <rect x="1074" y="286" width="78" height="184" rx="5"/>
+    </g>
+    <path d="M1074 378H1152" stroke="#664c70" stroke-opacity="0.6" stroke-width="6"/>
+  </g>
+
+  <!-- the light in the corridor, all of it out of the one open door -->
+  <ellipse class="cr-sun cr-bloom" cx="744" cy="360" rx="300" ry="280" fill="url(#crBloom)"/>
+  <ellipse class="cr-sun" cx="744" cy="400" rx="340" ry="300" fill="url(#crHalo)"/>
+
+  <!-- ================= NEAR: only softened ================= -->
+  <g filter="url(#crNear)">
+    <path d="M0 470 L1200 470 L1200 760 L0 760 Z" fill="#241429" fill-opacity="0.3"/>
+    <g stroke="#d8c1dd" stroke-opacity="0.1" stroke-width="3">
+      <path d="M0 560H1200M0 640H1200M0 730H1200"/>
+    </g>
+  </g>
+
+  <!-- WHAT THE OPEN DOOR PUTS ON THE FLOOR. Softened on its own filter rather
+       than drawn sharp with the door: the door is the subject and may be
+       crisp, but a hard-edged wedge of light lying across a blurred corridor
+       reads as a cut-out rather than as light. -->
+  <path class="cr-sun" filter="url(#crSpillBlur)" d="M700 470 L790 470 L920 760 L640 760 Z" fill="url(#crSpill)"/>
+
+  <!-- ================= THE ONE THING THAT COMES INTO FOCUS ================= -->
+  <g class="cr-door">
+    <ellipse class="cr-door-glow" cx="728" cy="420" rx="210" ry="230" fill="url(#crFocusGlow)"/>
+    <g class="cr-door-body">
+      <!-- the frame, and the dark of the door itself standing back -->
+      <path d="M636 236 L790 262 L790 470 L636 470 Z" fill="#1c0e22" fill-opacity="0.92"/>
+      <!-- the opening, which is the light -->
+      <path class="cr-pane" d="M700 262 L790 276 L790 470 L700 470 Z" fill="url(#crDoorLight)"/>
+      <path d="M700 262 L790 276 L790 470 L700 470 Z" fill="none" stroke="#fff6e8" stroke-opacity="0.5" stroke-width="3"/>
+      <circle cx="676" cy="368" r="8" fill="#d8c1dd" fill-opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- the two plates, on the one clock -->
+  <rect class="cr-night" width="1200" height="760" fill="#170c1c"/>
+  <rect class="cr-warm" width="1200" height="760" fill="url(#crWarmWash)"/>
+
+  <!-- the crop guards, so copy always has ground to sit on -->
+  <rect width="1200" height="200" fill="url(#crTop)"/>
+  <rect y="560" width="1200" height="200" fill="url(#crBottom)"/>
+</svg>

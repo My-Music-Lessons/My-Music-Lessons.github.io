@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- THE HALL, BEHIND THE INTAKE DOORS.
+     Owner, 25 September: "what happened to the 4 rooms idea? I really like
+     this and like the layout for the heros also so full backgrounds."
+
+     Room two of the set that began with desk-room.svg, and drawn from the same
+     kit so the two can never drift: the product's own palette read from
+     packages/ui/src/mml.css, two blur planes rather than one, four light
+     plates on a single 9s alternate, and exactly one object allowed to pull
+     into focus. Here that object is the piano lid.
+
+     WHY A HALL. This room sits behind the pages where somebody applies, asks
+     for help or raises a complaint. The hall is the room a parent is actually
+     imagining when they picture their child having a lesson at school: not an
+     office, not a studio, the room with the high windows they sat in
+     themselves. It earns its place by being the thing the page is about.
+
+     A background-image rather than inline markup, like the front desk: it is
+     decoration with nothing to announce, it caches, and the crop becomes a
+     background-position the stylesheet sets per breakpoint. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="presentation" aria-hidden="true">
+  <defs>
+    <!-- The same two planes as the front desk, at the same strengths. The hall
+         is well out of focus; the piano is only softened. Matching numbers
+         matter more than ideal ones here - a reader moving between contact and
+         apply should not feel the lens change. -->
+    <filter id="hlFar" x="-14%" y="-14%" width="128%" height="128%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="hlNear" x="-14%" y="-14%" width="128%" height="128%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+
+    <linearGradient id="hlWall" x1="0" y1="0" x2="0.24" y2="1">
+      <stop offset="0" stop-color="#3f2a4b"/>
+      <stop offset="0.54" stop-color="#32203d"/>
+      <stop offset="1" stop-color="#2b1933"/>
+    </linearGradient>
+    <linearGradient id="hlFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1830"/>
+      <stop offset="0.5" stop-color="#32203a"/>
+      <stop offset="1" stop-color="#2b1933"/>
+    </linearGradient>
+    <linearGradient id="hlGlass" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d5fbff" stop-opacity="0.5"/>
+      <stop offset="0.52" stop-color="#d8c1dd" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ff98ae" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="hlSpill" x1="0.72" y1="0" x2="0.1" y2="1">
+      <stop offset="0" stop-color="#d5fbff" stop-opacity="0.125"/>
+      <stop offset="0.6" stop-color="#d5fbff" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#d5fbff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hlPiano" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#5d4069"/>
+      <stop offset="0.35" stop-color="#432d4f"/>
+      <stop offset="1" stop-color="#2f1f38"/>
+    </linearGradient>
+    <linearGradient id="hlLid" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#8a6096"/>
+      <stop offset="0.45" stop-color="#5a3d68"/>
+      <stop offset="1" stop-color="#3a2744"/>
+    </linearGradient>
+    <linearGradient id="hlLidEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8c1dd" stop-opacity="0.08"/>
+      <stop offset="0.34" stop-color="#d8c1dd" stop-opacity="0.42"/>
+      <stop offset="0.66" stop-color="#f4eaf6" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#d8c1dd" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="hlKeys" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4eaf6" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#c8b2cf" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="hlChairs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3256" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#2d1c36" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="hlHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d5fbff" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#d5fbff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hlFocusGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9c4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd9c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hlPool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd6bf" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ffd6bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hlWarmWash" cx="0.78" cy="0.26" r="0.76">
+      <stop offset="0" stop-color="#ffdcb8" stop-opacity="0.3"/>
+      <stop offset="0.55" stop-color="#ffc8d4" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#ffc8d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hlSunShaft" x1="0.72" y1="0" x2="0.12" y2="1">
+      <stop offset="0" stop-color="#ffe9cf" stop-opacity="0.17"/>
+      <stop offset="0.5" stop-color="#ffdcc0" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#ffdcc0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hlSunBloom" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff0dc" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#ffd6bf" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffd6bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hlSunPane" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#fff6e8" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#ffd6bf" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="hlTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1933" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#2b1933" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hlBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1933" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2b1933" stop-opacity="0.36"/>
+    </linearGradient>
+    <clipPath id="hlWinA"><rect x="766" y="54" width="84" height="330" rx="42"/></clipPath>
+    <clipPath id="hlWinB"><rect x="922" y="54" width="84" height="330" rx="42"/></clipPath>
+    <clipPath id="hlWinC"><rect x="1078" y="54" width="84" height="330" rx="42"/></clipPath>
+  </defs>
+
+  <style>
+    /* ONE CLOCK RUNS THE ROOM, and it is the same clock the front desk runs.
+       9s alternate, eighteen seconds end to end, every plate on it, so a
+       reader moving between the two pages meets one building rather than two
+       drawings that happen to share a palette. */
+    .hl-night { animation: hl-night 9s ease-in-out infinite alternate; }
+    .hl-warm { animation: hl-warm 9s ease-in-out infinite alternate; }
+    .hl-sun { animation: hl-sun 9s ease-in-out infinite alternate; }
+    .hl-pane { animation: hl-pane 9s ease-in-out infinite alternate; }
+    /* Three shafts rather than one, because there are three windows, and they
+       drift on one slow cycle deliberately out of step with the light so the
+       two never line up into an obvious loop. Blurred here rather than in the
+       filter so the drift stays on transform. */
+    .hl-shaft {
+      filter: blur(15px);
+      animation:
+        hl-shaft-light 9s ease-in-out infinite alternate,
+        hl-shaft-drift 31s ease-in-out infinite alternate;
+    }
+    .hl-bloom { filter: blur(11px); }
+
+    /* THE LID IS THE ONE THING THAT COMES INTO FOCUS. Same 6s beat as the
+       bell, same blur values, so the two rooms breathe together. It lifts and
+       settles rather than crashing: the owner was clear on 24 September that
+       he did not want keys flying, and a lid that slams reads as a warning
+       rather than as an invitation on a page where somebody is about to
+       apply. The blur is animated in CSS because a filter primitive cannot be
+       driven from it. */
+    .hl-lid {
+      filter: blur(3.4px);
+      animation: hl-lid-focus 6s ease-in-out infinite;
+    }
+    .hl-lid-panel {
+      transform-box: fill-box;
+      transform-origin: 50% 100%;
+      animation: hl-lid-lift 6s ease-in-out infinite;
+    }
+    .hl-lid-glow {
+      transform-box: fill-box;
+      transform-origin: center;
+      opacity: 0;
+      animation: hl-lid-glow 6s ease-in-out infinite;
+    }
+    @keyframes hl-night { from { opacity: 0.58; } to { opacity: 0; } }
+    @keyframes hl-warm { from { opacity: 0; } to { opacity: 0.8; } }
+    @keyframes hl-sun { from { opacity: 0.1; } to { opacity: 0.66; } }
+    @keyframes hl-pane { from { opacity: 0.06; } to { opacity: 0.72; } }
+    @keyframes hl-shaft-light { from { opacity: 0.05; } to { opacity: 1; } }
+    @keyframes hl-shaft-drift {
+      from { transform: translateX(-18px); }
+      to { transform: translateX(22px); }
+    }
+    @keyframes hl-lid-focus {
+      0%, 44% { filter: blur(3.4px); }
+      56%, 76% { filter: blur(0px); }
+      92%, 100% { filter: blur(3.4px); }
+    }
+    @keyframes hl-lid-lift {
+      0%, 48% { transform: translateY(0) scale(1); }
+      58% { transform: translateY(-9px) scale(1.035); }
+      74% { transform: translateY(-4px) scale(1.015); }
+      88%, 100% { transform: translateY(0) scale(1); }
+    }
+    @keyframes hl-lid-glow {
+      0%, 46% { opacity: 0; transform: scale(0.72); }
+      58% { opacity: 1; transform: scale(1.12); }
+      84%, 100% { opacity: 0; transform: scale(0.72); }
+    }
+
+    /* The reader has asked for less, and an image cannot be told that by the
+       page that embeds it, so the guard lives in here. The hall settles lit,
+       not dark: a hall with the lights off is not the still frame anybody
+       wants behind an invitation to apply. */
+    @media (prefers-reduced-motion: reduce) {
+      .hl-night, .hl-warm, .hl-sun, .hl-pane, .hl-shaft,
+      .hl-lid, .hl-lid-panel, .hl-lid-glow {
+        animation: none;
+      }
+      .hl-night { opacity: 0.1; }
+      .hl-warm { opacity: 0.68; }
+      .hl-lid-glow { opacity: 0; }
+    }
+  </style>
+
+  <!-- the ground is never blurred, so no filter edge can ever show -->
+  <rect width="1200" height="760" fill="url(#hlWall)"/>
+  <rect y="486" width="1200" height="274" fill="url(#hlFloor)"/>
+
+  <!-- ================= FAR: well out of focus ================= -->
+  <g filter="url(#hlFar)">
+    <rect width="1200" height="760" fill="url(#hlWall)"/>
+    <rect y="486" width="1200" height="274" fill="url(#hlFloor)"/>
+
+    <!-- the parquet, running away from the reader -->
+    <g stroke="#664c70" stroke-opacity="0.16" stroke-width="2">
+      <path d="M0 540H1200M0 596H1200M0 660H1200M0 734H1200"/>
+    </g>
+    <g stroke="#664c70" stroke-opacity="0.12" stroke-width="2">
+      <path d="M150 486 40 760M330 486 268 760M510 486 496 760M690 486 724 760M870 486 952 760M1050 486 1180 760"/>
+    </g>
+    <!-- the court line every school hall has under the chairs -->
+    <path d="M196 640 Q600 612 1016 640" fill="none" stroke="#d8c1dd" stroke-opacity="0.13" stroke-width="5"/>
+    <path d="M0 486H1200" stroke="#664c70" stroke-opacity="0.42" stroke-width="2"/>
+
+    <!-- THE HIGH WINDOWS. Three, tall and arched, the way a hall built before
+         anybody thought about heating has them, and the whole reason the room
+         is worth drawing. -->
+    <ellipse cx="962" cy="220" rx="300" ry="238" fill="url(#hlHalo)"/>
+    <g clip-path="url(#hlWinA)">
+      <rect x="766" y="54" width="84" height="330" fill="url(#hlGlass)"/>
+      <g stroke="#1e1024" stroke-opacity="0.72" stroke-width="13">
+        <path d="M808 54V384M766 178H850M766 272H850"/>
+      </g>
+    </g>
+    <g clip-path="url(#hlWinB)">
+      <rect x="922" y="54" width="84" height="330" fill="url(#hlGlass)"/>
+      <g stroke="#1e1024" stroke-opacity="0.72" stroke-width="13">
+        <path d="M964 54V384M922 178H1006M922 272H1006"/>
+      </g>
+    </g>
+    <g clip-path="url(#hlWinC)">
+      <rect x="1078" y="54" width="84" height="330" fill="url(#hlGlass)"/>
+      <g stroke="#1e1024" stroke-opacity="0.72" stroke-width="13">
+        <path d="M1120 54V384M1078 178H1162M1078 272H1162"/>
+      </g>
+    </g>
+    <g fill="none" stroke="#1e1024" stroke-opacity="0.5" stroke-width="10">
+      <rect x="766" y="54" width="84" height="330" rx="42"/>
+      <rect x="922" y="54" width="84" height="330" rx="42"/>
+      <rect x="1078" y="54" width="84" height="330" rx="42"/>
+    </g>
+    <!-- the pier between each window, which is what makes three windows read
+         as three rather than as one long smear once the blur has them -->
+    <g fill="#2b1933" fill-opacity="0.82">
+      <rect x="858" y="40" width="58" height="360"/>
+      <rect x="1014" y="40" width="58" height="360"/>
+    </g>
+    <path d="M766 384 L850 384 L700 760 L448 760 Z" fill="url(#hlSpill)"/>
+    <path d="M922 384 L1006 384 L920 760 L668 760 Z" fill="url(#hlSpill)"/>
+    <path d="M1078 384 L1162 384 L1140 760 L888 760 Z" fill="url(#hlSpill)"/>
+
+    <!-- WHAT SURVIVES THE BLUR, AND NOTHING THAT DOES NOT. The first version
+         of this drawing had stacked chairs, a door ajar and wall bars in here.
+         At stdDeviation 13 every one of them was texture nobody could name, so
+         they are gone and what is left is one silhouette a reader can read at
+         a glance: the row of chairs against the near wall, and the stage. -->
+    <path d="M0 404 L232 404 L232 372 L286 372 L286 412 L352 412 L352 560 L0 560 Z" fill="url(#hlChairs)"/>
+    <path d="M0 560h352v14H0z" fill="#1c0e22" fill-opacity="0.8"/>
+    <!-- the stage at the far end, and the dark of the curtain above it -->
+    <path d="M404 444h250v42H404z" fill="#241429" fill-opacity="0.9"/>
+    <path d="M404 236h250v208H404z" fill="#1e1024" fill-opacity="0.72"/>
+  </g>
+
+  <!-- the four light plates, all on the one 9s clock -->
+  <rect class="hl-night" width="1200" height="760" fill="#160b1b"/>
+  <rect class="hl-warm" width="1200" height="760" fill="url(#hlWarmWash)"/>
+  <g class="hl-shaft">
+    <path class="hl-sun" d="M742 62 L864 62 L700 760 L360 760 Z" fill="url(#hlSunShaft)"/>
+    <path class="hl-sun" d="M906 62 L1028 62 L930 760 L590 760 Z" fill="url(#hlSunShaft)"/>
+    <path class="hl-sun" d="M1070 62 L1192 62 L1160 760 L820 760 Z" fill="url(#hlSunShaft)"/>
+  </g>
+  <g class="hl-bloom">
+    <ellipse class="hl-sun" cx="960" cy="236" rx="330" ry="280" fill="url(#hlSunBloom)"/>
+    <ellipse class="hl-sun" cx="720" cy="676" rx="360" ry="126" fill="url(#hlPool)"/>
+  </g>
+  <g class="hl-pane" clip-path="url(#hlWinB)">
+    <rect x="906" y="62" width="122" height="300" fill="url(#hlSunPane)"/>
+  </g>
+  <g class="hl-pane" clip-path="url(#hlWinA)">
+    <rect x="742" y="62" width="122" height="300" fill="url(#hlSunPane)"/>
+  </g>
+  <g class="hl-pane" clip-path="url(#hlWinC)">
+    <rect x="1070" y="62" width="122" height="300" fill="url(#hlSunPane)"/>
+  </g>
+
+  <!-- ================= NEAR: only softened ================= -->
+  <!-- THE INSTRUMENT, AS IT WAS DRAWN IN THE PROPOSAL. Owner, 25 September,
+       pointing at the mockup: "no i mean this one". Two versions of this room
+       had a piano drawn from the side - a soft slab, then a literal grand with
+       a bent side and a prop stick - and both were wrong for the same reason.
+       This is the shape from the four-rooms proposal: the case seen almost
+       square on, one long strip of keys, and the lid as a single flat plane
+       lifted off it. It reads at a glance and at any crop, which a drawn
+       instrument does not once the near blur has had it.
+
+       Geometry unchanged from that proposal on purpose. The room around it is
+       this file's - the owner keeps the windows and the light - but the
+       instrument is the one he chose, not an interpretation of it. -->
+  <g filter="url(#hlNear)">
+    <ellipse cx="640" cy="694" rx="470" ry="30" fill="#160c1a" fill-opacity="0.5"/>
+    <!-- the case -->
+    <path d="M330 560h520a90 90 0 0 1 90 90v40a26 26 0 0 1-26 26H356a26 26 0 0 1-26-26z" fill="#4b3357"/>
+    <path d="M330 560h520a90 90 0 0 1 90 90H330z" fill="#573b64"/>
+    <!-- the keys, one strip rather than a drawn keyboard -->
+    <rect x="346" y="646" width="470" height="30" rx="6" fill="#f4eaf6" fill-opacity="0.26"/>
+    <g fill="#241429" fill-opacity="0.75">
+      <rect x="368" y="646" width="9" height="18"/><rect x="392" y="646" width="9" height="18"/>
+      <rect x="430" y="646" width="9" height="18"/><rect x="454" y="646" width="9" height="18"/>
+      <rect x="478" y="646" width="9" height="18"/><rect x="516" y="646" width="9" height="18"/>
+      <rect x="540" y="646" width="9" height="18"/><rect x="578" y="646" width="9" height="18"/>
+      <rect x="602" y="646" width="9" height="18"/><rect x="626" y="646" width="9" height="18"/>
+      <rect x="664" y="646" width="9" height="18"/><rect x="688" y="646" width="9" height="18"/>
+      <rect x="726" y="646" width="9" height="18"/><rect x="750" y="646" width="9" height="18"/>
+      <rect x="774" y="646" width="9" height="18"/>
+    </g>
+    <!-- the stool -->
+    <rect x="200" y="620" width="120" height="14" rx="7" fill="#4b3357"/>
+    <path d="M232 634v92M288 634v92" stroke="#4b3357" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- ================= THE ONE THING THAT COMES INTO FOCUS ================= -->
+  <g class="hl-lid">
+    <ellipse class="hl-lid-glow" cx="612" cy="470" rx="250" ry="130" fill="url(#hlFocusGlow)"/>
+    <g class="hl-lid-panel">
+      <path d="M338 556 L560 366 L900 402 L864 558 Z" fill="#6b4a78" fill-opacity="0.92"/>
+      <path d="M338 556 L560 366 L900 402 L864 558 Z" fill="none" stroke="#d8c1dd" stroke-opacity="0.5" stroke-width="3"/>
+      <!-- the lit top edge, which is what makes the plane read as a lid -->
+      <path d="M560 366 L900 402" stroke="#f4eaf6" stroke-opacity="0.6" stroke-width="4"/>
+      <path d="M470 456 L742 486" stroke="#d8c1dd" stroke-opacity="0.22" stroke-width="2.5"/>
+      <!-- the stick holding it open -->
+      <path d="M700 404 L742 484" stroke="#d8c1dd" stroke-opacity="0.34" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- the crop guards, so copy always has ground to sit on -->
+  <rect width="1200" height="190" fill="url(#hlTop)"/>
+  <rect y="570" width="1200" height="190" fill="url(#hlBottom)"/>
+</svg>
