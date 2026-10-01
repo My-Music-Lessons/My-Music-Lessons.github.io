@@ -1,8 +1,8 @@
 {
-  "sourceFingerprint": "4580634b842b378b885f258c764cceabdc3a6d619c2b329ff5a9a8083d46abc5",
-  "progressFingerprint": "95c42b70fff5cf8abcb8ed96b75e257ec528dc28c26239740838bf27813bb994",
+  "sourceFingerprint": "835ca19665fd9bce466b0ef33ac318ce83268a53090097524324c83266df23e6",
+  "progressFingerprint": "c1c6ee2bb901c7f4eb34a325bb4b113c8341eba7b3ad96dbf4565b5a1c8f0bd3",
   "sourceDirty": false,
-  "githubCommit": "fc5bc076eb9c5ad6b80832ee8608381cb75c64ac",
+  "githubCommit": "6d15aa293dc9e9959673c03b085a721a18f64c13",
   "completionPercentage": 0,
   "progressMetrics": {
     "routeInventory": {
@@ -84,10 +84,10 @@
       "evidence": "Current-source deployment gates; the earlier public preview remains separately recorded."
     }
   },
-  "commit": "fc5bc076eb9c5ad6b80832ee8608381cb75c64ac",
+  "commit": "6d15aa293dc9e9959673c03b085a721a18f64c13",
   "designCommit": "4e5493046cef4a2444ac7b55956e07b70283f868",
   "baselineCommit": "0311d4526bcb490c0d53a8c80e23a804cb6a8d47",
-  "builtAt": "2026-10-01T08:42:19.202Z",
+  "builtAt": "2026-10-01T09:51:00.757Z",
   "version": "1.2.0",
   "branch": "ui/premium-hero-motion-20261001",
   "expectedOrigin": ""
